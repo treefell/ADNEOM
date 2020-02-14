@@ -1,0 +1,12 @@
+
+Guide utilisation fonction Parition
+
+Partition est une fonction qui prend une Liste "liste"  de T éléments et un Integer "taille".
+Elle découpe ensuite "liste" en sous liste de taille "taille",
+si le modulo de la taille de la liste est inférieur à "taille" la dernière sous liste sera les éléments restants.
+Le retour de Partition est une Liste de Liste, contenant les sous listes.
+
+Cas particulier:
+ -si "taille" est inférieur ou égal à 0 Partition retournera une Liste de Liste vide.
+ -si "taille" est supérieur Partition retounera une liste contenant "liste".  
+ -̶s̶i̶ ̶"̶t̶a̶i̶l̶l̶e̶"̶ ̶e̶s̶t̶ ̶n̶é̶g̶a̶t̶i̶f̶ ̶P̶a̶r̶t̶i̶t̶i̶o̶n̶ ̶l̶a̶n̶c̶e̶r̶a̶ ̶u̶n̶e̶ ̶e̶r̶r̶e̶u̶r̶ ̶"̶N̶o̶m̶b̶r̶e̶N̶e̶g̶a̶t̶i̶f̶E̶x̶c̶e̶p̶t̶i̶o̶n̶"̶,̶ ̶e̶n̶ ̶e̶f̶f̶e̶t̶ ̶i̶l̶ ̶n̶'̶e̶s̶t̶ ̶p̶a̶s̶ ̶p̶o̶s̶s̶i̶b̶l̶e̶ ̶d̶e̶ ̶p̶a̶r̶t̶i̶t̶i̶o̶n̶ ̶a̶v̶e̶c̶ ̶u̶n̶ ̶n̶o̶m̶b̶r̶e̶ ̶n̶é̶g̶a̶t̶i̶f̶.̶
